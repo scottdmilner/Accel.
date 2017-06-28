@@ -19,5 +19,10 @@ New-line-ish characters:
   * String w/ stack collapse
 
 Functions:
-  * If arguments can be taken from previo
+  * Unary operators are postfix notation (√, -(neg))
+  * Binary operators are infix notation (+, *)
+  * Tridary?+ operators are infix, one+ divider may be a NL-ish char, though. i.e.
+    * <pre><code>Arg1-*NL*
+      Arg2-*Func*-Arg3</code></pre> 
+    * Alternately, the operator may pull all inputs from the stack
   
